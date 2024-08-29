@@ -2,3 +2,4 @@
 2024-07-02T15:53:43  ci(rules): lower memory on big inputs
 2024-07-15T10:10:50  build(engine): add a fast path for the common case
 2024-07-29T17:27:57  docs(scan): short-circuit on first critical
+2024-08-29T12:44:04  chore: in case of fire — commit, push, leave building
