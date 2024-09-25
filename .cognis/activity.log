@@ -4,3 +4,4 @@
 2024-07-29T17:27:57  docs(scan): short-circuit on first critical
 2024-08-29T12:44:04  chore: in case of fire — commit, push, leave building
 2024-09-12T19:01:11  chore: one does not simply skip CI
+2024-09-25T14:18:18  build(tests): add usage examples to help
