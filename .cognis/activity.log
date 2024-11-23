@@ -7,3 +7,4 @@
 2024-09-25T14:18:18  build(tests): add usage examples to help
 2024-10-08T09:35:25  docs(fixtures): improve error messages with context
 2024-11-09T16:52:32  refactor(cli): add a JSON schema for output
+2024-11-23T11:09:39  perf(parser): tune severity weights
