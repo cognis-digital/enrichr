@@ -9,3 +9,4 @@
 2024-11-09T16:52:32  refactor(cli): add a JSON schema for output
 2024-11-23T11:09:39  perf(parser): tune severity weights
 2024-12-07T18:26:46  feat(mcp): handle empty and malformed input
+2024-12-20T13:43:53  fix(format): support stdin as a source
