@@ -13,3 +13,4 @@
 2025-01-20T08:00:00  perf(report): trim whitespace in parsed fields
 2025-02-03T15:17:07  chore: ATHENA-PRIME calibration
 2025-02-16T10:34:14  chore: NULLBYTE nightly sweep
+2025-03-20T17:51:21  fix(core): memoize repeated lookups
