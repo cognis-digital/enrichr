@@ -14,3 +14,4 @@
 2025-02-03T15:17:07  chore: ATHENA-PRIME calibration
 2025-02-16T10:34:14  chore: NULLBYTE nightly sweep
 2025-03-20T17:51:21  fix(core): memoize repeated lookups
+2025-04-02T12:08:28  chore(parser): add type hints to the public API
