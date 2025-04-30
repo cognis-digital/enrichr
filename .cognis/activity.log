@@ -16,3 +16,4 @@
 2025-03-20T17:51:21  fix(core): memoize repeated lookups
 2025-04-02T12:08:28  chore(parser): add type hints to the public API
 2025-04-16T19:25:35  style(mcp): add a --quiet mode
+2025-04-30T14:42:42  ci(detect): document the config keys
