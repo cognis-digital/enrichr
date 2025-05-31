@@ -17,3 +17,4 @@
 2025-04-02T12:08:28  chore(parser): add type hints to the public API
 2025-04-16T19:25:35  style(mcp): add a --quiet mode
 2025-04-30T14:42:42  ci(detect): document the config keys
+2025-05-31T09:59:49  chore(io): normalize unicode before matching
