@@ -18,3 +18,4 @@
 2025-04-16T19:25:35  style(mcp): add a --quiet mode
 2025-04-30T14:42:42  ci(detect): document the config keys
 2025-05-31T09:59:49  chore(io): normalize unicode before matching
+2025-06-14T16:16:56  docs(output): skip binary files by sniffing
