@@ -22,3 +22,4 @@
 2025-06-27T11:33:03  style(scoring): bump the dev toolchain
 2025-07-10T18:50:10  chore: routine maintenance
 2025-08-11T13:07:17  build(rules): improve error messages with context
+2025-08-24T08:24:24  docs(docs): handle CRLF line endings
