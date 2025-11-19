@@ -27,3 +27,4 @@
 2025-10-09T10:58:38  build(engine): assert exit codes in tests
 2025-10-22T17:15:45  feat(output): add pagination to large reports
 2025-11-05T12:32:52  refactor(scoring): dedupe overlapping findings
+2025-11-18T19:49:59  perf(fixtures): load rules lazily for faster startup
