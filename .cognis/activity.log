@@ -29,3 +29,4 @@
 2025-11-05T12:32:52  refactor(scoring): dedupe overlapping findings
 2025-11-18T19:49:59  perf(fixtures): load rules lazily for faster startup
 2025-12-20T14:06:06  build(tests): make timestamps timezone-aware
+2026-01-02T09:23:13  feat: do or do not, there is no try/except
