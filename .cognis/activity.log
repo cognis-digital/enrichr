@@ -33,3 +33,4 @@
 2026-01-15T16:40:20  fix(scan): respect .gitignore when walking
 2026-01-29T11:57:27  test(engine): simplify the walker
 2026-03-02T18:14:34  style(report): improve the demo scenario
+2026-03-16T13:31:41  fix(format): wire the MCP tool schema
