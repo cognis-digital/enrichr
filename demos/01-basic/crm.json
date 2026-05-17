@@ -1,0 +1,16 @@
+{
+  "greenway-energy.com": {
+    "company_name": "Greenway Energy Capital",
+    "industry": "Energy",
+    "employee_count": 240,
+    "country": "United States",
+    "confidence": 0.97
+  },
+  "helixbio.io": {
+    "company_name": "Helix Bio",
+    "industry": "Healthcare",
+    "employee_count": 48,
+    "country": "United States",
+    "confidence": 0.95
+  }
+}
