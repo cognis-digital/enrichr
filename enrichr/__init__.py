@@ -1,2 +1,11 @@
-"""ENRICHR — Enrich a leads CSV with firmographics, tech stack, and contact validation from pluggable providers, caching results to avoid duplicate API spend."""
-__version__ = "0.1.0"
+"""enrichr — part of the Cognis Neural Suite."""
+try:  # re-export the tool's public API + identity from core
+    from enrichr.core import *  # noqa: F401,F403
+except Exception:  # pragma: no cover
+    pass
+try:
+    from enrichr.core import TOOL_NAME, TOOL_VERSION
+except Exception:  # pragma: no cover
+    TOOL_NAME = "enrichr"
+    TOOL_VERSION = "0.1.0"
+__version__ = TOOL_VERSION
