@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: enrichr, labels: { app: enrichr } }
+spec:
+  replicas: 1
+  selector: { matchLabels: { app: enrichr } }
+  template:
+    metadata: { labels: { app: enrichr } }
+    spec:
+      containers:
+        - name: enrichr
+          image: ghcr.io/cognis-digital/enrichr:latest
+          ports: [{ containerPort: 8000 }]
+          resources:
+            requests: { cpu: "50m", memory: "64Mi" }
+            limits: { cpu: "500m", memory: "256Mi" }
+---
+apiVersion: v1
+kind: Service
+metadata: { name: enrichr }
+spec:
+  selector: { app: enrichr }
+  ports: [{ port: 80, targetPort: 8000 }]
