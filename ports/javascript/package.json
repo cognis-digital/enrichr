@@ -1,0 +1,10 @@
+{
+  "name": "@cognis/enrichr",
+  "version": "0.2.0",
+  "description": "JavaScript port of enrichr (Cognis Neural Suite)",
+  "bin": {
+    "enrichr": "index.js"
+  },
+  "license": "LicenseRef-COCL-1.0",
+  "type": "module"
+}
