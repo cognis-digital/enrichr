@@ -16,7 +16,7 @@
 </div>
 
 ```bash
-pip install cognis-enrichr
+pip install "git+https://github.com/cognis-digital/enrichr.git"
 enrichr scan .            # → prioritized findings in seconds
 ```
 
@@ -52,7 +52,7 @@ Provider-agnostic enrichment you self-host — swap Clearbit for a free source v
 ## Quick start
 
 ```bash
-pip install cognis-enrichr
+pip install "git+https://github.com/cognis-digital/enrichr.git"
 enrichr --version
 enrichr scan .                       # scan current project
 enrichr scan . --format json         # machine-readable
