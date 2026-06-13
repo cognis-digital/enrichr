@@ -20,6 +20,40 @@ pip install cognis-enrichr
 enrichr scan .            # → prioritized findings in seconds
 ```
 
+## Usage — step by step
+
+1. **Install** the CLI:
+
+   ```bash
+   pipx install "git+https://github.com/cognis-digital/enrichr.git"
+   ```
+
+2. **Enrich** a leads CSV with firmographics — the primary command:
+
+   ```bash
+   enrichr enrich leads.csv
+   ```
+
+3. **Bring your own data and cache** — provide a domain→firmographics mapping (tried before heuristics) and a JSON cache to avoid duplicate lookups:
+
+   ```bash
+   enrichr enrich leads.csv --mapping firmographics.json --cache cache.json -o enriched.csv
+   ```
+
+4. **Read the output** — write enriched rows to a CSV, or emit JSON for piping; disable the offline heuristic provider if you only want mapped data:
+
+   ```bash
+   enrichr enrich leads.csv --format json > enriched.json
+   enrichr enrich leads.csv --no-heuristic -o enriched.csv
+   ```
+
+5. **Automate in a pipeline** — by default a partially-unenriched run exits non-zero so CI can catch coverage gaps:
+
+   ```bash
+   enrichr enrich leads.csv -o enriched.csv
+   # non-zero exit => some leads could not be enriched
+   ```
+
 ## Contents
 
 - [Why enrichr?](#why) · [Features](#features) · [Quick start](#quick-start) · [Example](#example) · [Architecture](#architecture) · [AI stack](#ai-stack) · [How it compares](#how-it-compares) · [Integrations](#integrations) · [Install anywhere](#install-anywhere) · [Related](#related) · [Contributing](#contributing)
