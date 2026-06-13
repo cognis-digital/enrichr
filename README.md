@@ -20,6 +20,12 @@ pip install "git+https://github.com/cognis-digital/enrichr.git"
 enrichr scan .            # → prioritized findings in seconds
 ```
 
+<!-- cognis:layman:start -->
+## What is this?
+
+Enrichr takes a spreadsheet of sales leads (email addresses and company names) and automatically fills in missing details about each company — like what industry they're in, how big the company is, and what country they're based in. It works entirely offline without paying for a data service, using smart guesses from the company's web address. It's built for sales teams, marketers, and developers who want to clean up and expand their contact lists before importing them into a CRM or running an outreach campaign.
+<!-- cognis:layman:end -->
+
 ## Contents
 
 - [Why enrichr?](#why) · [Features](#features) · [Quick start](#quick-start) · [Example](#example) · [Architecture](#architecture) · [AI stack](#ai-stack) · [How it compares](#how-it-compares) · [Integrations](#integrations) · [Install anywhere](#install-anywhere) · [Related](#related) · [Contributing](#contributing)
@@ -49,6 +55,42 @@ Provider-agnostic enrichment you self-host — swap Clearbit for a free source v
 <div align="right"><a href="#top">↑ back to top</a></div>
 
 <a name="quick-start"></a>
+<!-- cognis:install:start -->
+## Install
+
+`enrichr` is source-available (not published to PyPI) — every method below installs
+straight from GitHub. Pick whichever you prefer; the one-line scripts auto-detect
+the best tool available on your machine.
+
+**One-liner (Linux / macOS):**
+```sh
+curl -fsSL https://raw.githubusercontent.com/cognis-digital/enrichr/HEAD/install.sh | sh
+```
+
+**One-liner (Windows PowerShell):**
+```powershell
+irm https://raw.githubusercontent.com/cognis-digital/enrichr/HEAD/install.ps1 | iex
+```
+
+**Or install manually — any one of:**
+```sh
+pipx install "git+https://github.com/cognis-digital/enrichr.git"     # isolated (recommended)
+uv tool install "git+https://github.com/cognis-digital/enrichr.git"  # uv
+pip install "git+https://github.com/cognis-digital/enrichr.git"      # pip
+```
+
+**From source:**
+```sh
+git clone https://github.com/cognis-digital/enrichr.git
+cd enrichr && pip install .
+```
+
+Then run:
+```sh
+enrichr --help
+```
+<!-- cognis:install:end -->
+
 ## Quick start
 
 ```bash
